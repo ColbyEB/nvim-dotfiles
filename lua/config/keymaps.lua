@@ -7,6 +7,9 @@ vim.keymap.set("n", "<leader>ff", telescope.find_files, { desc = "Telescope find
 vim.keymap.set("n", "<leader>fg", telescope.live_grep, { desc = "Telescope live grep" })
 vim.keymap.set("n", "<leader>fb", telescope.buffers, { desc = "Telescope buffers" })
 vim.keymap.set("n", "<leader>fh", telescope.help_tags, { desc = "Telescope help tags" })
+vim.keymap.set({ "n" }, "<leader>d", function()
+  vim.diagnostic.open_float()
+end, { silent = true }, { desc = "Show Diagnostics" })
 
 local ls = require("luasnip")
 

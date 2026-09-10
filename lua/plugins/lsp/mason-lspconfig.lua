@@ -5,7 +5,8 @@ return {
       "lua_ls",
       "pyrefly",
       "clangd",
-      "ocamllsp",
+      --"ocamllsp",
+      -- in $PATH "cmake",
     },
   },
   dependencies = {

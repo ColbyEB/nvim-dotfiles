@@ -26,5 +26,23 @@ return {
         },
       },
     }
+
+    vim.lsp.config.rust_analyzer = {
+      settings = {
+        ["rust-analyzer"] = {
+          diagnostics = {
+            enable = true,
+            experimental = {
+              enable = true,
+            },
+          },
+        },
+      },
+    }
+    vim.lsp.config.cmake = {
+      settings = {},
+    }
+    vim.lsp.enable("lua_ls")
+    vim.lsp.enable("cmake")
   end,
 }
