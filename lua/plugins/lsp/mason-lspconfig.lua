@@ -5,6 +5,7 @@ return {
       "lua_ls",
       "pyrefly",
       "clangd",
+      "rust_analyzer",
       --"ocamllsp",
       -- in $PATH "cmake",
     },

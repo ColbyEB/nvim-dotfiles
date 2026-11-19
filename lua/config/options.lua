@@ -16,4 +16,4 @@ opt.fillchars = { eob = " " }
 opt.relativenumber = true
 opt.number = true
 
-cmd.colorscheme("tokyonight")
+cmd.colorscheme("cyberdream")
